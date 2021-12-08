@@ -5,7 +5,7 @@
 
 from Configs import Var
 
-REPO_LINK = "https://twitter.com/bankerdoge"
+REPO_LINK = "https://twitter.com/altruprotocol"
 
 
 CUSTOM_FORMAT = """🚨 **NEW [{SENDER}]({SENDER_PROFILE}) TWEET ALERT** 🚨:
@@ -14,7 +14,7 @@ Go Like, Retweet and Comment! /WORKING_FOR_MY_BAG
 
 {TWEET_TEXT}
 
-• **[Link To Tweet]({_REPO_LINK})**"""
+• **[Link To Tweet]({TWEET_LINK})**"""
 
 
 if not Var.CUSTOM_TEXT:
